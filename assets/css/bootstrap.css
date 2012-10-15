@@ -5807,6 +5807,10 @@ a.carouselLink:hover {
   color: #333333;
 }
 
+.carouselText {
+  text-align: right;
+}
+
 /* Video embedding
 -------------------------------------------------- */
 .video-container {
