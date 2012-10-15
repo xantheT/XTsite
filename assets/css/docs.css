@@ -743,7 +743,7 @@ form.bs-docs-example {
 
 .bs-docs-sidenav {
   width: 228px;
-  margin: 30px 0 0;
+  margin: 55px 0 0;
   padding: 0;
   background-color: #fff;
   -webkit-border-radius: 6px;
@@ -795,7 +795,7 @@ form.bs-docs-example {
 }
 .bs-docs-sidenav .active .icon-chevron-right,
 .bs-docs-sidenav .active a:hover .icon-chevron-right {
-  background-image: url(../img/glyphicons-halflings-white.png);
+  background-image: url(../img/glyphicons-halflings.png);
   opacity: 1;
 }
 .bs-docs-sidenav.affix {
