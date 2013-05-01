@@ -1,0 +1,8 @@
+/*My style sheet*/
+
+/*Not currently used but could use this*/
+.name-brand {
+	background: url('../img/name.png') no-repeat left center;
+	  height: 20px;
+  width: 100px;
+}
