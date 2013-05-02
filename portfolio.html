@@ -61,7 +61,7 @@
           <li><a href="#nextdoor"><i class="icon-chevron-right"></i>Nextdoor</a></li>
           <li><a href="#sporting"><i class="icon-chevron-right"></i>Sporting</a></li>
           <li><a href="#stanfordfh"><i class="icon-chevron-right"></i>Stanford Field Hockey</a></li>
-          <li><a href="#stopMotion"><i class="icon-chevron-right"></i>Stop Motion</a></li>
+          <li><a href="#specScience"><i class="icon-chevron-right"></i>Bits and Bobs</a></li>
           <!--<li><a href="#aboutMe"><i class="icon-chevron-right"></i>About.Me</a></li>-->
         </ul>
       </div>
@@ -185,6 +185,20 @@
         </section>
 
 
+        <!-- Spectacular Science
+        ================================================== -->
+        <section id="specScience">
+          <div class="page-header">
+            <h1>Spectacular Science</h1>
+          </div>
+          <p>Could we visualize science by plotting paths from one invention to the next? A widget I made while prototyping an app for the <a href="http://www.sciencemuseum.org.uk/">Science Museum</a> in London:</p>
+            <div class="graph-container img-rounded text-center" id="graph-container">
+              <button class="btn btn-large btn-info" type="button" id="graph-button">Click me to start playing</button>
+              <iframe id="graph-viz" style="display:none;" src="./references/SpectacularScience/crass_viz/graphviz.html" width="500" height="500" frameborder="0"></iframe>
+            </div>
+        </section>
+
+
           <!-- Stop Motion
         ================================================== -->
         <section id="stopMotion">
@@ -253,6 +267,9 @@
         });
       });
 
+
+$(document).ready(function(){
+
     $("#brand")
         .mouseover(function() { 
             $(this).attr("src", "./assets/img/nameActive.png");
@@ -260,6 +277,18 @@
         .mouseout(function() {
             $(this).attr("src", "./assets/img/name.png");
         });
+
+        $("#graph-button").click(function() { 
+            $("#graph-button").remove();
+            $("#graph-container").css("height",'500px');
+            $("#graph-viz").attr('src', $("#graph-viz").attr('src'));
+            $("#graph-viz").fadeIn("fast");
+        });
+
+    });
+
+
+
   </script>
 
 
