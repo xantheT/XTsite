@@ -247,4 +247,25 @@ a:hover #twitter-logo, a:hover #linkedin-logo, a:hover #instagram-logo {
 	.graph-container button {
 	margin-top: 10%;
 	margin-left: 14%;
+	}
 }
+
+/*ABOUT PAGE MAP STYLES*/
+#map {
+}
+
+.location-card img{
+	-webkit-border-radius: 500px;
+	-moz-border-radius: 500px;
+	border-radius: 500px;
+	width:50px;
+}
+
+#uk {
+	position: absolute;
+	top: 25%;
+	left: 46%;
+}
+
+
+
