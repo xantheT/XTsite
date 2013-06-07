@@ -252,19 +252,51 @@ a:hover #twitter-logo, a:hover #linkedin-logo, a:hover #instagram-logo {
 
 /*ABOUT PAGE MAP STYLES*/
 #map {
+	position: relative;
 }
 
 .location-card img{
-	-webkit-border-radius: 500px;
-	-moz-border-radius: 500px;
-	border-radius: 500px;
-	width:50px;
+	-webkit-border-radius: 6px;
+	-moz-border-radius: 6px;
+	border-radius: 6px;
+	width:60px;
+	transition: width 1s;
+	-webkit-transition: width 1s; /* Safari */
+}
+
+#map a:hover .location-card img{
+	width:80px;
+	trans
 }
 
 #uk {
 	position: absolute;
-	top: 25%;
-	left: 46%;
+	top:18%;
+	left: 45%;
+}
+
+#sa {
+	position: absolute;
+	top: 90%;
+	left: 55%;
+}
+
+#usa {
+	position: absolute;
+	top: 40%;
+	left: 7%;
+}
+
+#greece {
+	position: absolute;
+	top: 42%;
+	left: 56%;
+}
+
+
+.resume-link {
+	text-align: right;
+	padding-top: 70px;
 }
 
 
